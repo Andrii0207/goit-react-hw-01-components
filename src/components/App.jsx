@@ -1,5 +1,10 @@
-import profile from './profile/Profile';
+import { Profile } from './profile/Profile';
+import user from './profile/user.json';
 
 export const App = () => {
-  return <div>Profile</div>;
+  return (
+    <div>
+      <Profile user={user} />
+    </div>
+  );
 };
