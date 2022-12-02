@@ -1,10 +1,13 @@
-import { Profile } from './profile/Profile';
-import user from './profile/user.json';
+import Profile from './Profile/Profile';
+import user from './Profile/user.json';
+import StatList from './Statistics/Statistics';
+import data from './Statistics/data.json';
 
 export const App = () => {
   return (
     <div>
       <Profile user={user} />
+      <StatList label={data.label} percentage={data.percentage} />
     </div>
   );
 };
