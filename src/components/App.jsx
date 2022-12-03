@@ -1,5 +1,5 @@
-import Statistics from './Statistics/Statistics';
-import FriendList from './FriendList/FriendList';
+// import Statistics from './Statistics/Statistics';
+// import FriendList from './FriendList/FriendList';
 import { data, user, friends } from '../data/index';
 
 export const App = () => {
