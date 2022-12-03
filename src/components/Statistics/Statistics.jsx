@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Stats } from './Stats';
+import Stats from './Stats';
 
 function Statistics({ title, stats }) {
   return (
